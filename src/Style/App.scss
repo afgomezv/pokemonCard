@@ -1,0 +1,14 @@
+@use "variables" as v;
+
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+body {
+  background-color: v.$thirdcolor;
+}
